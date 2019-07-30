@@ -4,7 +4,7 @@ Feature: RHEL CABS
 		
     Given the Continuous Automated Build System exists
       """
-      https://tower.dmci-isf.com/api/v2
+      https://tower.dmci-isf.com/api/v2/
       """
     When I query the Ansible API for the CABS Operating System
     Then the API returns RHEL7
